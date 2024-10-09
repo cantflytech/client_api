@@ -23,3 +23,5 @@ python app.py
 
 Une fois l'application lancée, vous pouvez envoyer des webhooks à l'URL locale de votre machine (par exemple, `http://localhost:5000`).
 
+## Fonctionnement en Environnement Local
+Cette API est conçue pour fonctionner en environnement local. Vous devrez donc la tester localement sur votre machine. Pour ce faire, vous pouvez utiliser un outil tel que Postman ou cURL afin de communiquer avec l'API et envoyer des requêtes de test à l'URL
