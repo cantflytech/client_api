@@ -25,3 +25,12 @@ Une fois l'application lancée, vous pouvez envoyer des webhooks à l'URL locale
 
 ## Fonctionnement en Environnement Local
 Cette API est conçue pour fonctionner en environnement local. Vous devrez donc la tester localement sur votre machine. Pour ce faire, vous pouvez utiliser un outil tel que Postman ou cURL afin de communiquer avec l'API et envoyer des requêtes de test à l'URL
+
+Tests Unitaires
+Le projet inclut également des tests unitaires qui permettent de vérifier le bon fonctionnement du code sans avoir à exécuter le bot en entier. Ces tests permettent de valider les différents états et comportements de l'application de manière isolée.
+
+Pour exécuter les tests unitaires, assurez-vous d'avoir installé les dépendances de test, puis utilisez la commande suivante :
+
+bash
+Copier le code
+pytest
